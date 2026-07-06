@@ -1,6 +1,6 @@
 version: 0.2
 
-phasesDD:
+phases:
   install:
     commands:
       - echo "Installing dependencies..."
@@ -10,8 +10,9 @@ phasesDD:
   build:
     commands:
       - echo "Running build"
+      - commande_inexistante   # ❌ Cette commande n'existe pas, le build échouera
   post_build:
-    commandsDDD:
+    commands:
       - echo "Build completed successfully."
 
 artifacts:
