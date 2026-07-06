@@ -10,7 +10,6 @@ phases:
   build:
     commands:
       - echo "Running build"
-      - commande_inexistante   # ❌ Cette commande n'existe pas, le build échouera
   post_build:
     commands:
       - echo "Build completed successfully."
