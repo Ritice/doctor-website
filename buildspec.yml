@@ -3,18 +3,18 @@ version: 0.2
 phases:
   install:
     commands:
-      - echo Installing dependencies...
+      - echo "Installing dependencies..."
   pre_build:
     commands:
-      - echo start prebuild and end it    
+      - echo "Start prebuild and end it"
   build:
     commands:
-      - echo Running buuild
+      - echo "Running build"
   post_build:
     commands:
-      - echo Build completed successfully.
+      - echo "Build completed successfully."
 
 artifacts:
   files:
     - "**/*"
-  base-directory: .  # Specify where artifacts are stored
+  base-directory: .
