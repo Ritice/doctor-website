@@ -1,6 +1,6 @@
 version: 0.2
 
-phases:
+phasesDD:
   install:
     commands:
       - echo "Installing dependencies..."
@@ -11,7 +11,7 @@ phases:
     commands:
       - echo "Running build"
   post_build:
-    commands:
+    commandsDDD:
       - echo "Build completed successfully."
 
 artifacts:
